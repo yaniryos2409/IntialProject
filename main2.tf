@@ -9,5 +9,5 @@ resource "aws_iam_account_password_policy" "secure_policy" {
   require_numbers                = true
   require_symbols                = true
   max_password_age               = 89
-  aapassword_reuse_prevention     = 24
+  password_reuse_prevention     = 24
 }
